@@ -200,7 +200,7 @@ const EmailManager: React.FC = () => {
             <button className="ms-2 btn btn-primary rounded-pill" onClick={handleEmailAdd}>Add Email</button>
             <Container>
                 <Row className="mt-4">
-                    <Col xs={12} md={6} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
+                    <Col xs={12} md={{span:5,offset:1}} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
                         <FormGroup >
                             <FormLabel>Search in Available Email Recipients</FormLabel>
                             <Form.Control
@@ -237,7 +237,7 @@ const EmailManager: React.FC = () => {
                             ))}
                         </ul>
                     </Col>
-                    <Col xs={12} md={6} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
+                    <Col xs={12} md={{span:5,offset:1}} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
                         <FormGroup>
                             <FormLabel>Search in Available Companies</FormLabel>
                             <Form.Control
@@ -277,7 +277,7 @@ const EmailManager: React.FC = () => {
                     </Col>
                 </Row>
                 <Row className="mt-4">
-                <Col xs={12} md={6} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
+                <Col xs={12} md={{span:5,offset:1}} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
                         <FormGroup>
                             <FormLabel>Search in Selected Email Recipients</FormLabel>
                             <Form.Control
@@ -313,7 +313,7 @@ const EmailManager: React.FC = () => {
                     ))}
                 </ul>
                     </Col>
-                    <Col xs={12} md={6} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
+                    <Col xs={12} md={{span:5,offset:1}} className="border border-2 border-grey pt-2 rounded shadow p-3 mb-5 bg-white rounded" >
                         <FormGroup>
                             <FormLabel>Search in Selected Companies</FormLabel>
                             <Form.Control
