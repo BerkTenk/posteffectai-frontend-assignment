@@ -10,7 +10,7 @@ li{
   padding-inline-start: 1em;
   align-items: center;
 }
-li:hover{
+ul li:hover{
   background-color: lightblue;
   border: 1px solid black;
 }
