@@ -5,7 +5,7 @@ import EmailManager from './components/EmailManager';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header >
         <EmailManager />
       </header>
     </div>
