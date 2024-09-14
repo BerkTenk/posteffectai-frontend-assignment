@@ -170,7 +170,7 @@ const EmailManager: React.FC = () => {
 
     return (
         <div>
-            <h2>Email Manager</h2>
+            <h2>Posteffect AI Frontend Assignment</h2>
             <input
                 type="text"
                 value={inputValue}
@@ -178,7 +178,7 @@ const EmailManager: React.FC = () => {
                 placeholder="Enter An Email"
             />
             {suggestions.length > 0 && (
-                <ul style={{ border: '1px solid #ccc', padding: 0, marginTop: 5 }}>
+                <ul style={{ border: '1px solid #ccc', padding: 0, marginTop: 5, maxWidth:"600px", marginInline:"auto" }}>
                     {suggestions.map((suggestion, index) => (
                         <li
                             key={index}
@@ -234,7 +234,7 @@ const EmailManager: React.FC = () => {
                                                 <li className="d-flex justify-content-between my-2" key={subIndex}>
                                                     {recipient.email}
                                                     <button
-                                                        className="btn btn-success btn-sm m-1"
+                                                        className="btn btn-success btn-sm my-1"
                                                         onClick={() => handleSelectRecipient(recipient)}
                                                     >
                                                         Select Email
